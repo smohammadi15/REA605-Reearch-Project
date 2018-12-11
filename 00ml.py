@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+#uses 5 different ML algorithms against the formatted CSVs
+#outputs the average and standard deviation results
+#creates an accuracy score, confusion matrix, and classification
+#report for the KNN, CART, and SVC models
 import pandas as pd
 import sklearn
 import numpy as np

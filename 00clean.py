@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+#this script takes a Flowmeter formatted csv as input
+#it adds an additional labelling column required in scikit machine
+#learning while removing unnecessary features
 import os
 import glob
 import pandas as pd
